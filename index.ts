@@ -14,7 +14,7 @@ const paletteGearInput = new easymidi.Input(paletteGearInputName, false);
 
 const myTrayApp = new WindowsTrayIcon({
     title: "Palette Spotify Control",
-    icon: path.resolve(__dirname, "icon.ico"),
+    icon: path.resolve(__dirname, "../icon.ico"),
     menu: [
         {
             id: "exit",
