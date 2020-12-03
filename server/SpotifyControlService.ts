@@ -43,9 +43,9 @@ export class SpotifyControlService {
         }
         this.spotifyApi.setVolume(volume)
             .then(() => {
-               console.log(`Changed volume to ${volume}%.`);
+               console.log(`Changed spotify volume to ${volume}%.`);
             }, error => {
-                console.log("Error while changing volume.", error);
+                console.log("Error while changing spotify volume.", error);
             });
     }
 

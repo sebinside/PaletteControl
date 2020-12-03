@@ -1,7 +1,7 @@
 {
   "name": "palettecontrol",
   "version": "1.0.0",
-  "description": "Enabling midi controller like the palette gear controlling programs like spotify",
+  "description": "Enabling midi controllers like the palette gear to control everything!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,11 @@
   "author": "sebinside",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.5"
   },
   "dependencies": {
     "@types/express": "^4.17.3",
-    "@types/node": "^13.9.3",
+    "@types/node": "^13.13.12",
     "easymidi": "^1.1.2",
     "express": "^4.17.1",
     "open": "^7.0.3",

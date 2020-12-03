@@ -40,7 +40,7 @@ function setupServer() {
 
     router.get(`/${SpotifyControlService.callbackURL}`, (req, res) => {
         spotifyService.login(req.query.code.toString());
-        res.send("<p>OK. This window may now be closed.</p>")
+        res.send("<http><head><script>window.close();</script></head><body>Spotify connection successful! You may close this window now.</body></http>")
     });
 
     app.use('/', router);
