@@ -1,6 +1,6 @@
-import {CredentialsProviderImpl} from "./server/secret/CredentialsProviderImpl";
+import {CredentialsProviderImpl} from "./service/secret/CredentialsProviderImpl";
 import * as express from "express"
-import {SpotifyControlService} from "./server/SpotifyControlService";
+import {SpotifyControlService} from "./service/SpotifyControlService";
 import * as easymidi from "easymidi";
 import * as WindowsTrayIcon from "windows-trayicon"
 import * as path from "path"

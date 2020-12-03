@@ -3,4 +3,4 @@
 .vscode/
 *.js
 *.js.map
-/server/secret/
+/service/secret/
